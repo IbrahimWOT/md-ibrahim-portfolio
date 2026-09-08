@@ -114,6 +114,11 @@ export default function Contact() {
 
                 </div>
 
+                {/* Copyright Section */}
+                <div className="mt-16 pt-8 border-t border-gray-800/60 text-center text-sm text-gray-400">
+                    <p>© {new Date().getFullYear()} Ibrahim.dev. All rights reserved.</p>
+                </div>
+
             </div>
         </section>
     );
