@@ -1,11 +1,11 @@
 // src/data/personal.ts
 export const personalInfo = {
     name: "MD. Ibrahim",
-    title: "Backend Engineer",
-    // যখন অ্যাভিয়েবল থাকবে তখন true করবে, না থাকলে false করে দেবে!
+    title: "Software Engineer (Backend)",
+    // যখন অ্যাভেইলেবল থাকবে তখন true করবে, না থাকলে false করে দেবে!
     isAvailable: true,
-    availabilityText: "Available for Backend Opportunities",
-    description: "Aspiring Backend Engineer skilled in designing robust server-side architectures, building scalable APIs, and optimizing system performance with clean, maintainable code.",
+    availabilityText: "Available for Software Engineer (Backend) Roles",
+    description: "Aspiring Software Engineer (Backend) skilled in designing robust server-side architectures, building scalable APIs, and optimizing system performance with clean, maintainable code.",
     resumeUrl: "/resume/MD-Ibrahim-CV.pdf",
     socials: {
         facebook: "https://www.facebook.com/ibrahiim.445",
@@ -14,4 +14,4 @@ export const personalInfo = {
         codeforces: "https://codeforces.com/profile/wasteOf_time",
         leetcode: "https://leetcode.com/u/Ibrahim_Hridoy/",
     }
-};
+}
