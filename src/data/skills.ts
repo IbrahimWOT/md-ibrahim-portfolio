@@ -4,20 +4,24 @@ export const skillsData = {
     title: "Technical Skills",
     categories: [
         {
-            categoryName: "Languages & Frameworks",
-            skills: ["C", "C++", "Go", "Python", "Java", "JavaScript", "TypeScript", "Next.js", "Tailwind CSS"]
+            categoryName: "Languages",
+            skills: ["C#", "Go", "C++", "Python", "SQL", "TypeScript", "JavaScript"]
         },
         {
-            categoryName: "Backend & Databases",
-            skills: ["Node.js", "Express.js", "PostgreSQL", "MongoDB", "REST APIs", "System Architecture"]
+            categoryName: "Backend & Web",
+            skills: ["ASP.NET Core", "Gin", "REST APIs", "Node.js", "Express.js", "Next.js"]
         },
         {
-            categoryName: "AI & Deep Learning Systems",
-            skills: ["PyTorch", "Medical Image Processing", "Semantic Segmentation", "Atten2UNet Architecture", "Vision Transformer based Classification"]
+            categoryName: "Databases & Caching",
+            skills: ["PostgreSQL", "Redis", "MongoDB", "MySQL", "Prisma ORM"]
         },
         {
-            categoryName: "Operating Systems & Tools",
-            skills: ["Windows", "Ubuntu", "Kali Linux", "Git & GitHub", "VS Code", "Vercel", "Antigravity IDE"]
+            categoryName: "Architecture & DevOps",
+            skills: ["Clean Architecture", "Docker", "Git & GitHub", "Postman", "JWT Auth", "Linux"]
+        },
+        {
+            categoryName: "AI & Deep Learning",
+            skills: ["PyTorch", "Computer Vision", "U-Net", "Vision Transformers (ViT)"]
         }
     ]
 };
